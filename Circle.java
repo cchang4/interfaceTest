@@ -15,4 +15,8 @@ public class Circle extends Shape{
 	return "Circle "+getName()+" with radius of "+getRadius();
     }
 
+    public double getArea(){
+	return 3.14 * radius * radius;
+    }
+
 }
